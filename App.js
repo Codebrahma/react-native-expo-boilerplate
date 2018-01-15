@@ -1,17 +1,17 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+
+import Root from './src/index';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
 
 const App = () => (
   <View style={styles.container}>
-    <Text>Open up App.js to start working on your app!</Text>
+    <Root />
   </View>
 );
 
