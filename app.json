@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "neighbourly",
+    "name": "cb-react-native-boilerplate",
     "description": "This project is really great.",
-    "slug": "neighbourly",
+    "slug": "cb-react-native-boilerplate",
     "privacy": "public",
     "sdkVersion": "24.0.0",
     "platforms": ["ios", "android"],

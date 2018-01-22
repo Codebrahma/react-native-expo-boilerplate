@@ -1,4 +1,4 @@
-import { APP_LOADED } from './../constants/action-types';
+import { APP_LOADED } from '~/src/constants/action-types';
 
 const initialState = {
   isFirstTimeOpen: true,

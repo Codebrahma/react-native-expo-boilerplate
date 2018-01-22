@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { persistStore, autoRehydrate } from 'redux-persist';
 import { AsyncStorage } from 'react-native';
 import thunk from 'redux-thunk';
-import reducers from './../reducers';
+import reducers from '~/src/reducers';
 
 const createAppStore = applyMiddleware(thunk)(createStore);
 
