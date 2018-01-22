@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { StyleSheet, Text, View } from 'react-native';
 import { connect } from 'react-redux';
 
-import globalStyles from './../styles/index';
-import { GREEN } from './../styles/colors';
-import { loadApp } from './../actions/app';
+import globalStyles from '~/src/styles/index';
+import { GREEN } from '~/src/styles/colors';
+import { loadApp } from '~/src/actions/app';
 
 const styles = StyleSheet.create({
   welcomeText: {

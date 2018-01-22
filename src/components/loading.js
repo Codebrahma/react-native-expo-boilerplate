@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import globalStyles from './../styles/index';
+import globalStyles from '~/src/styles/index';
 
 const Loading = () => (
   <View style={[
