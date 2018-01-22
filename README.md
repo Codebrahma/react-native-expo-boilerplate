@@ -20,6 +20,8 @@ Install the below tools/packages
 4. Once, 'npm install' is completed, run `exp start` to start the expo and react-native server
 5. If it shows a QR code on the terminal as a result of 'exp start' command, then you are good to go!
 
+you can write your env specific config variables on `.env` file and import them from `react-native-dotenv` package as mentioned [here](https://github.com/zetachang/react-native-dotenv#usage).
+
 Ignore the first step on 'Mobile setup' instructions given below if you already have 'Expo' app installed on your phone.
 
 #### Mobile setup
